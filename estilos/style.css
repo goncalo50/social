@@ -23,7 +23,6 @@ section#telefone{
     position: absolute;
 
     background: url('../imagens/frame-iphone1.png') no-repeat;
-    background-size: 50% vh;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -31,4 +30,32 @@ section#telefone{
 
     width: 160px;
     height: 323px;
+}
+iframe#tela{
+    position: relative;
+    top:42px;
+    left: 11px;
+    width: 137px;
+    height: 243px;
+}
+section#sociais{
+    text-align: right;
+    padding-right: 25px;
+    padding-top: 45px;
+}
+section#sociais  img{
+    width: 40px;
+    margin: 5px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 10px 0.5px black;
+    
+    
+}
+section#sociais img:hover{
+    border: 2px solid #f5deb36e;
+    transform: translate(-2px, -2px);
+    box-shadow: 1px 1px 10px 0.5px #00000070;
+    transition:  transform 1s border 0.5s;
+    
+
 }
